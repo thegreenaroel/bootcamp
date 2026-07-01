@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Affiliate & Video AI Bersama Kang Aroel</title>
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Load Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Load Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        'shopee': '#ee4d2d',
+                        'shopee-hover': '#d73e20',
+                        'tiktok': '#111111',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        /* Custom animations */
+        .bounce-slight {
+            animation: bounce-slight 2s infinite;
+        }
+        @keyframes bounce-slight {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-5px); }
+        }
+        .gradient-text {
+            background: linear-gradient(to right, #ee4d2d, #ff8a00);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+<body class="font-sans antialiased text-gray-800 bg-gray-50">
+
+    <header class="relative bg-tiktok text-white overflow-hidden">
+        <div class="absolute inset-0 bg-gradient-to-r from-black to-gray-900 opacity-90"></div>
+        <div class="relative max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-28 text-center">
+            <span class="inline-block py-1 px-3 rounded-full bg-shopee/20 text-shopee border border-shopee/50 font-semibold text-sm mb-6 uppercase tracking-wider">
+                <i class="fas fa-fire mr-2"></i> Kelas Tatap Muka Eksklusif
+            </span>
+            <h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
+                Mau Punya Penghasilan Tambahan, Tapi <span class="gradient-text">Bingung Mulai dari Mana?</span>
+            </h1>
+            <p class="mt-4 text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto mb-10 font-light">
+                Gabung di Bootcamp 10 Hari <strong>"Belajar Affiliate & Video AI Bersama Kang Aroel"</strong>. Dari Gaptek sampai Pecah Telur Pertama! 100% Praktik Langsung pakai produk fisik nyata.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="#cta" class="inline-flex items-center justify-center px-8 py-4 text-lg font-bold rounded-full text-white bg-shopee hover:bg-shopee-hover transition duration-300 shadow-lg shadow-shopee/30 bounce-slight">
+                    Daftar Sekarang <i class="fas fa-arrow-right ml-2"></i>
+                </a>
+                <a href="#jadwal" class="inline-flex items-center justify-center px-8 py-4 text-lg font-semibold rounded-full text-white border border-gray-600 hover:bg-gray-800 transition duration-300">
+                    Lihat Jadwal Materi
+                </a>
+            </div>
+            
+            <div class="mt-12 flex justify-center space-x-6 text-gray-400">
+                <div class="flex flex-col items-center">
+                    <i class="fab fa-tiktok text-3xl mb-2 hover:text-white transition"></i>
+                    <span class="text-sm">TikTok Affiliate</span>
+                </div>
+                <div class="flex flex-col items-center">
+                    <i class="fas fa-shopping-bag text-3xl mb-2 hover:text-shopee transition"></i>
+                    <span class="text-sm">Shopee Affiliate</span>
+                </div>
+                <div class="flex flex-col items-center">
+                    <i class="fas fa-robot text-3xl mb-2 hover:text-blue-400 transition"></i>
+                    <span class="text-sm">Video AI</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="py-16 bg-white">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">Apakah Ini Yang Anda Rasakan?</h2>
+                <div class="w-24 h-1 bg-shopee mx-auto rounded-full"></div>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-gray-50 p-8 rounded-2xl shadow-sm border border-gray-100 text-center hover:shadow-md transition">
+                    <div class="w-16 h-16 bg-red-100 text-red-500 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl">
+                        <i class="fas fa-video-slash"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Malu Depan Kamera</h3>
+                    <p class="text-gray-600">Pengen bikin video review, tapi minder dan nggak percaya diri ngomong di depan kamera.</p>
+                </div>
+                <div class="bg-gray-50 p-8 rounded-2xl shadow-sm border border-gray-100 text-center hover:shadow-md transition">
+                    <div class="w-16 h-16 bg-red-100 text-red-500 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Mentok Ide Konten</h3>
+                    <p class="text-gray-600">Bikin 1-2 video habis itu bingung besok mau posting apa lagi. Nggak tau cara bikin script yang menarik.</p>
+                </div>
+                <div class="bg-gray-50 p-8 rounded-2xl shadow-sm border border-gray-100 text-center hover:shadow-md transition">
+                    <div class="w-16 h-16 bg-red-100 text-red-500 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Gaptek Editing</h3>
+                    <p class="text-gray-600">Nggak ngerti cara edit video biar rapi, pake efek, atau nambahin teks otomatis.</p>
+                </div>
+            </div>
+
+            <div class="mt-16 bg-shopee/10 rounded-3xl p-8 md:p-12 border border-shopee/20 flex flex-col md:flex-row items-center gap-8">
+                <div class="md:w-2/3">
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Di Bootcamp Ini, Kita Akan Hancurkan Semua Masalah Tersebut!</h3>
+                    <p class="text-gray-700 text-lg mb-4">
+                        Dipandu langsung oleh <strong>Kang Aroel</strong>, Anda akan belajar dari <strong>NOL</strong>. Disediakan produk sampel fisik untuk latihan, diajarkan cara bikin video tanpa harus nampilin wajah (AI Video), dan teknik rahasia tembus FYP.
+                    </p>
+                    <ul class="space-y-2 text-gray-700 font-medium">
+                        <li><i class="fas fa-check-circle text-green-500 mr-2"></i> Full Praktik (Bukan cuma dengerin teori)</li>
+                        <li><i class="fas fa-check-circle text-green-500 mr-2"></i> Disediakan Produk Fisik untuk Syuting</li>
+                        <li><i class="fas fa-check-circle text-green-500 mr-2"></i> Dibimbing sampai komisi cair</li>
+                    </ul>
+                </div>
+                <div class="md:w-1/3 flex justify-center">
+                    <div class="w-40 h-40 bg-white rounded-full flex items-center justify-center shadow-lg border-4 border-shopee/20 text-shopee">
+                        <i class="fas fa-rocket text-6xl bounce-slight"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="mentor" class="py-16 bg-white border-t border-gray-100">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row items-center gap-12">
+                <div class="md:w-1/3 flex justify-center order-2 md:order-1">
+                    <div class="relative w-64 md:w-full">
+                        <div class="absolute inset-0 bg-shopee rounded-3xl transform -rotate-6 scale-105 opacity-10"></div>
+                        <!-- Placeholder Foto Kang Aroel (Ubah link src nanti dengan foto asli) -->
+                        <img src="https://placehold.co/400x500/eeeeee/ee4d2d?text=Foto+Kang+Aroel" alt="Kang Aroel" class="relative rounded-3xl shadow-xl z-10 w-full object-cover border-4 border-white">
+                    </div>
+                </div>
+                <div class="md:w-2/3 order-1 md:order-2">
+                    <span class="text-shopee font-bold tracking-wider uppercase text-sm mb-2 block">Profil Instruktur</span>
+                    <h2 class="text-3xl font-bold text-gray-900 mb-4">Belajar Langsung dari <span class="gradient-text">Praktisinya</span></h2>
+                    <p class="text-gray-700 text-lg mb-4 leading-relaxed">
+                        Perkenalkan, <strong>Kang Aroel</strong>. Beliau bukanlah sekadar pengajar teori, melainkan seorang praktisi <strong>Digital Marketing yang telah terjun sejak tahun 2012</strong>.
+                    </p>
+                    <p class="text-gray-700 text-lg mb-6 leading-relaxed">
+                        Melihat pergeseran tren yang masif, sejak <strong>tahun 2023</strong> Kang Aroel memfokuskan dirinya secara penuh di dunia <strong>Affiliate Marketing</strong>. Saat ini, fokus dan keahlian utama beliau ada pada penciptaan <strong>Affiliate Content Original</strong> serta pemanfaatan <strong>Video AI (Artificial Intelligence)</strong> untuk mendominasi FYP tanpa harus selalu tampil di depan kamera.
+                    </p>
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="bg-gray-50 p-4 rounded-xl border border-gray-100 flex items-center gap-3">
+                            <div class="w-12 h-12 bg-shopee/10 rounded-full flex items-center justify-center text-shopee shrink-0">
+                                <i class="fas fa-history text-xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-gray-900 text-sm md:text-base">Sejak 2012</h4>
+                                <p class="text-xs text-gray-500">Digital Marketing</p>
+                            </div>
+                        </div>
+                        <div class="bg-gray-50 p-4 rounded-xl border border-gray-100 flex items-center gap-3">
+                            <div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center text-blue-500 shrink-0">
+                                <i class="fas fa-robot text-xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-gray-900 text-sm md:text-base">Spesialis AI</h4>
+                                <p class="text-xs text-gray-500">Video & Content</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="jadwal" class="py-16 bg-gray-50">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <span class="text-shopee font-bold tracking-wider uppercase text-sm">Kurikulum Lengkap</span>
+                <h2 class="text-3xl font-bold text-gray-900 mt-2 mb-4">Jadwal Materi 10 Hari (4 Jam/Hari)</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">Dirancang khusus untuk pemula. Langkah demi langkah yang sistematis agar Anda tidak kewalahan.</p>
+            </div>
+
+            <!-- Minggu 1 -->
+            <h3 class="text-2xl font-bold text-tiktok mb-6 flex items-center">
+                <span class="bg-tiktok text-white w-10 h-10 rounded-lg flex items-center justify-center mr-3">M1</span> 
+                Fondasi & Pra-Produksi
+            </h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-4 mb-12">
+                <!-- Card 1 -->
+                <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-5 hover:shadow-md transition">
+                    <div class="text-shopee font-bold text-sm mb-2">HARI 1</div>
+                    <h4 class="font-bold text-gray-900 mb-2 leading-tight">Mindset & Setup "Mesin Uang"</h4>
+                    <p class="text-sm text-gray-600">Pendaftaran akun TikTok & Shopee Affiliate dari nol sampai di-ACC.</p>
+                </div>
+                <!-- Card 2 -->
+                <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-5 hover:shadow-md transition">
+                    <div class="text-shopee font-bold text-sm mb-2">HARI 2</div>
+                    <h4 class="font-bold text-gray-900 mb-2 leading-tight">Riset Produk & Etalase</h4>
+                    <p class="text-sm text-gray-600">Mencari winning products komisi tinggi & membuat "Koleksi Saya".</p>
+                </div>
+                <!-- Card 3 -->
+                <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-5 hover:shadow-md transition">
+                    <div class="text-shopee font-bold text-sm mb-2">HARI 3</div>
+                    <h4 class="font-bold text-gray-900 mb-2 leading-tight">Rahasia Scripting & Hook</h4>
+                    <p class="text-sm text-gray-600">Praktik nulis naskah jualan yang bikin penonton nggak bisa scroll.</p>
+                </div>
+                <!-- Card 4 -->
+                <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-5 hover:shadow-md transition bg-orange-50 border-orange-200">
+                    <div class="text-shopee font-bold text-sm mb-2">HARI 4 <i class="fas fa-star text-yellow-500"></i></div>
+                    <h4 class="font-bold text-gray-900 mb-2 leading-tight">Praktik Syuting (Penting!)</h4>
+                    <p class="text-sm text-gray-600">Syuting langsung pakai produk sampel fisik. Belajar lighting & angle.</p>
+                </div>
+                <!-- Card 5 -->
+                <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-5 hover:shadow-md transition">
+                    <div class="text-shopee font-bold text-sm mb-2">HARI 5</div>
+                    <h4 class="font-bold text-gray-900 mb-2 leading-tight">Fundamental Editing CapCut</h4>
+                    <p class="text-sm text-gray-600">Teknik cut-to-cut super cepat, transisi, dan caption otomatis.</p>
+                </div>
+            </div>
+
+            <!-- Minggu 2 -->
+            <h3 class="text-2xl font-bold text-tiktok mb-6 flex items-center">
+                <span class="bg-tiktok text-white w-10 h-10 rounded-lg flex items-center justify-center mr-3">M2</span> 
+                Optimasi Visual, AI & Skala Bisnis
+            </h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-4">
+                <!-- Card 6 -->
+                <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-5 hover:shadow-md transition bg-blue-50 border-blue-200">
+                    <div class="text-blue-600 font-bold text-sm mb-2">HARI 6 <i class="fas fa-robot"></i></div>
+                    <h4 class="font-bold text-gray-900 mb-2 leading-tight">Optimasi Visual & Video AI</h4>
+                    <p class="text-sm text-gray-600">Bikin konten tanpa wajah, voiceover AI, dan penjernih resolusi video.</p>
+                </div>
+                <!-- Card 7 -->
+                <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-5 hover:shadow-md transition">
+                    <div class="text-shopee font-bold text-sm mb-2">HARI 7</div>
+                    <h4 class="font-bold text-gray-900 mb-2 leading-tight">Strategi Keranjang Kuning</h4>
+                    <p class="text-sm text-gray-600">Cara aman upload, pasang link, algoritma FYP, dan hindari pelanggaran.</p>
+                </div>
+                <!-- Card 8 -->
+                <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-5 hover:shadow-md transition">
+                    <div class="text-shopee font-bold text-sm mb-2">HARI 8</div>
+                    <h4 class="font-bold text-gray-900 mb-2 leading-tight">Praktik Live Streaming</h4>
+                    <p class="text-sm text-gray-600">Simulasi live jualan. Cara pancing interaksi & bikin audiens FOMO.</p>
+                </div>
+                <!-- Card 9 -->
+                <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-5 hover:shadow-md transition">
+                    <div class="text-shopee font-bold text-sm mb-2">HARI 9</div>
+                    <h4 class="font-bold text-gray-900 mb-2 leading-tight">Analitik & Bedah Konten</h4>
+                    <p class="text-sm text-gray-600">Baca metrik komisi, nonton bareng karya peserta, dan evaluasi total.</p>
+                </div>
+                <!-- Card 10 -->
+                <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-5 hover:shadow-md transition">
+                    <div class="text-shopee font-bold text-sm mb-2">HARI 10</div>
+                    <h4 class="font-bold text-gray-900 mb-2 leading-tight">Kelulusan & Konsistensi</h4>
+                    <p class="text-sm text-gray-600">Bikin kalender konten 30 hari, pembagian sertifikat, penutup.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="cta" class="py-20 bg-tiktok text-white relative overflow-hidden">
+        <!-- Decorative elements -->
+        <div class="absolute top-0 right-0 -mr-20 -mt-20 w-64 h-64 rounded-full bg-shopee/20 blur-3xl"></div>
+        <div class="absolute bottom-0 left-0 -ml-20 -mb-20 w-80 h-80 rounded-full bg-blue-500/20 blur-3xl"></div>
+        
+        <div class="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl md:text-5xl font-bold mb-6">Amankan Kursi Anda Sekarang!</h2>
+            <p class="text-xl text-gray-300 mb-8 font-light">
+                Kuota sangat terbatas untuk menjaga kualitas bimbingan. <br class="hidden md:block">
+                Mari mulai bangun aset digital dan penghasilan dari HP Anda.
+            </p>
+
+            <div class="bg-gray-900 border border-gray-700 rounded-3xl p-8 md:p-12 shadow-2xl max-w-2xl mx-auto">
+                <div class="flex flex-col gap-4 text-left max-w-md mx-auto mb-8 text-gray-300">
+                    <div class="bg-gradient-to-r from-blue-600/20 to-purple-600/20 border border-blue-500/30 rounded-xl p-3 transform hover:scale-105 transition duration-300">
+                        <p class="text-white"><i class="fas fa-gift text-yellow-400 w-6"></i> <span class="font-bold">Gratis Gemini Pro 1 Tahun</span> <br><span class="text-sm text-blue-300 ml-7">(Senilai Rp 3.700.000)</span></p>
+                    </div>
+                    <p class="ml-3"><i class="fas fa-check text-green-400 w-6"></i> 10 Hari Full Tatap Muka</p>
+                    <p class="ml-3"><i class="fas fa-check text-green-400 w-6"></i> Akses Produk Sampel</p>
+                    <p class="ml-3"><i class="fas fa-check text-green-400 w-6"></i> Template Script & Ide Konten</p>
+                    <p class="ml-3"><i class="fas fa-check text-green-400 w-6"></i> Grup Support Eksklusif</p>
+                </div>
+
+                <!-- Ganti nomor HP pada href wa.me di bawah ini -->
+                <a href="https://wa.me/6281234567890?text=Halo%20Kang%20Aroel,%20saya%20mau%20daftar%20Bootcamp%20Affiliate%2010%20Hari.%20Apakah%20kuota%20masih%20ada?" target="_blank" class="block w-full py-4 px-6 rounded-full font-bold text-lg bg-green-500 hover:bg-green-600 text-white transition duration-300 shadow-lg shadow-green-500/30 bounce-slight">
+                    <i class="fab fa-whatsapp text-2xl mr-2 align-middle"></i> Daftar via WhatsApp
+                </a>
+                <p class="text-xs text-gray-500 mt-4"><i class="fas fa-lock mr-1"></i> Pembayaran aman, tanya-tanya dulu juga boleh.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-black text-gray-400 py-8 text-center border-t border-gray-800">
+        <p class="text-sm">&copy; 2026 Bootcamp Affiliate Mastery by Kang Aroel. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
